@@ -1,0 +1,75 @@
+body {
+	background-color: #222!important;
+}
+
+.outline {
+	outline: 1px dashed deeppink;
+}
+
+.vp {
+	width: 100%;
+	height: 100vh;
+}
+
+#splash {
+	padding: 19em 0;
+}
+
+h1, h2, h3 {
+	color: orange!important;
+}
+
+#search-box {
+	padding: 0.5em 0;
+}
+
+.search-input-group .input-group-addon {
+   background: #fff!important; 
+}
+
+.search-input-group .form-control {
+	border-right: 0; 
+	box-shadow: 0 0 0; 
+	border-color: #ccc;
+}
+
+.search-input-group button {
+   border: 0;
+   background: transparent;
+}
+
+.map-box {
+	border: 0.5em solid #fff;
+}
+
+#search-results {
+	padding: 0.5em 0;
+}
+
+.grid-btns {
+	padding: 0.5em 0;
+}
+
+.profile {
+	width: 100%;
+	margin-bottom: 1em;
+	cursor: pointer;
+}
+
+.profile img {
+	width: 100%;
+	cursor: pointer;
+}
+
+.profile-overlay {
+	width: 100%;
+	height: 100%;
+	background-color: orange;
+	opacity: 0.7;
+	color: #fff;
+	text-align: center;
+   z-index: 10;
+   position: fixed;
+   display: none;
+}
+
